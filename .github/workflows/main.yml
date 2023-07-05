@@ -6,7 +6,7 @@ jobs:
   steps:
     - run:  
       echo *** LOAD ***
-      sudo mkdir -p /home/HowToWorkWith/
+      sudo mkdir -p /home/HowtoWorkwithGit/
       sudo git clone https://github.com/sung-jun98/HowtoWorkwithGit.git /home/HowToWorkWith/
       cd /home/HowToWorkWith/
       echo *** LOAD ***
@@ -21,3 +21,5 @@ jobs:
       echo *** TEST ***
       pytest-3 testFile.py --disable-warnings
       echo *** TEST ***
+      
+ 
